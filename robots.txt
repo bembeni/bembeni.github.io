@@ -1,3 +1,9 @@
+---
+layout: null
+---
 # robotstxt.org/
+# The robots exclusion protocol
 
 User-agent: *
+Disallow: /page*
+Sitemap: {{ site.url }}/sitemap.xml

@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv="x-ua-compatible" content="ie=edge"><![endif]-->
+<meta http-equiv="cleartype" content="on">
+
+{% if page.title == "Home" %}<title>{{ site.title }} &middot; {{ site.tagline }}</title>{% else %}<title>{{ page.title }} &middot; {{ site.title }}</title>{% endif %}
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- Robots -->
+<meta name="robots" content="noarchive, noodp, noydir">
+<meta name="google" value="notranslate">
+ 
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ site.twitter }}">
+<meta name="twitter:creator" content="@mnmlivn">
+<meta name="twitter:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{% if page.cover %}{{ site.url }}/assets/img/{{page.cover}}{% else %}{{ site.url }}/assets/img/{{site.cover}}{% endif %}">
+<meta name="twitter:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="bg_BG">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+<meta property="og:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
+<meta property="og:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if page.cover %}{{ site.url }}/assets/img/{{page.cover}}{% else %}{{ site.url }}/assets/img/{{site.cover}}{% endif %}">
+<meta property="article:author" content="https://www.facebook.com/{{ site.facebook }}">
+
+<!-- Mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="theme-color" content="#ffffff">
+
+<!-- iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Stihotvorenia">
+
+<!-- MS Windows -->          
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="{{ site.url }}/assets/img/mstile-144x144.png">
+<meta name="msapplication-config" content="{{ site.url }}/assets/img/browserconfig.xml">
+
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/img/apple-touch-icon-180x180.png">
+<link rel="manifest" href="{{ site.url }}/assets/img/manifest.json">
+<link rel="icon" type="image/png" href="{{ site.url }}/assets/img/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
+
+<!-- Sitemap -->
+<link rel="sitemap" href="{{ site.url }}/sitemap.xml" type="application/xml" title="Sitemap" />
+
+<!-- RSS -->          
+<link rel="alternate" href="{{ site.url }}/atom.xml" type="application/rss+xml" title="Atom">
+<link rel="alternate" href="{{ site.url }}/rss.xml" type="application/rss+xml" title="RSS">
+
+<!-- SEO -->         
+<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">{% if page.previous.url %}
+<link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.url }}" title="{{ page.previous.title | markdownify | strip_html | strip_newlines }}">{% endif %}{% if page.next.url %}
+<link rel="next" href="{{ page.next.url | replace:'index.html','' | prepend: site.url }}" title="{{ page.next.title | markdownify | strip_html | strip_newlines }}">{% endif %}
+    
+<!-- Profile for XFN -->
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<!-- DNS prefetch -->
+<link rel="dns-prefetch" href="//ajax.googleapis.com/">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+      
+<link rel="stylesheet" href="/assets/css/main.css">
+</head>

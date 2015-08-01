@@ -1,0 +1,5 @@
+<nav class="blog">
+<ul class="nav">{% for member in site.data.nav %}
+<li class="nav"><a class="active" href="{{ member.link }}">{{ member.name }}</a></li>{% endfor %}
+</ul>
+</nav>

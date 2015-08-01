@@ -1,0 +1,21 @@
+# Navigation links
+
+- name: Начало
+  link: /
+  class: home
+
+- name: Съдържание
+  link: /toc/
+  class: toc
+  
+- name: Относно
+  link: /about/
+  class: about
+
+- name: Контакт
+  link: /contact/
+  class: contact
+  
+- name: Download
+  link: /download/
+  class: download

@@ -1,0 +1,50 @@
+title:       "стихотворения"
+tagline:     "Албена Тодорова"
+description: "колко текста правят книга, колко аплодисмента правят публика, колко думи правят стих, колко мълчания правят търпение, колко усилия правят семейство, колко какво прави щастие"
+url:         http://book.bembeni.com
+baseurl:     ''
+permalink:   /stihotvorenia/:title/
+relative_permalinks: true
+
+author:      Албена Тодорова
+email:       benikki.blog@gmail.com
+twitter:     mume_mume
+instagram:   bembeni
+facebook:    bembeni
+tumblr:      bembeni
+github:      bembeni
+cover:       bembeni.jpg
+  
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+    
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  
+sass:
+  sass_dir: _sass
+  style: compressed
+  
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE.md", "Gruntfile.js", "package.json", "node_modules", "CNAME"]
+
+encoding: "utf-8"
+timezone: Europe/Sofia
+
+ga: UA-000000-0

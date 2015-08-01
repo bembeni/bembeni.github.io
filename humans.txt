@@ -1,15 +1,27 @@
-# humanstxt.org/
+---
+layout: null
+---
+# humanstxt.org
 # The humans responsible & technology colophon
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Albena Todorova | Author | @@mume_mume 
+    Ivan Ivanov | Front-end Web Developer | @mnmlivn
 
 # THANKS
 
-    <name>
+    Brad Frost        | http://bradfrost.com
+    Eric Meyer        | http://meyerweb.com
+    Ethan Marcotte    | http://ethanmarcotte.com
+    Harry Roberts     | http://csswizardry.com
+    Jeffery Zeldman   | http://www.zeldman.com
+    Nicolas Gallagher | http://nicolasgallagher.com
+    Paul Irish        | http://www.paulirish.com
+    Roger Johansson   | http://www.456bereastreet.com
 
-# TECHNOLOGY COLOPHON
+# SITE
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    Last Update: {{ site.time | date: '%Y/%m/%d' }}
+    Standards: HTML5, CSS3
+    Components: Jekyll, Normalize.css, Sass

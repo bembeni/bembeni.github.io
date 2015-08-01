@@ -1,0 +1,25 @@
+{
+  "name": "stihotvorenia",
+  "version": "0.0.2",
+  "author": "Albena Todorova <benikki.blog@gmail.com>",
+  "homepage": "http://book.bembeni.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bembeni/bembeni.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bembeni/bembeni.github.io/issues"
+  },
+  "engines": {
+    "node": ">= 0.12.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-imagemin": "~0.2.0",
+    "grunt-svgmin": "~0.2.0"
+  }
+}
