@@ -7,9 +7,10 @@ permalink: /download/
 class: download
 cover: beni.jpg
 ---
-Книгата е достъпна за безплатно изтегляне. Приятно четене!
-
 <div class="btn-group figure">
+
+<p>Книгата е достъпна за безплатно изтегляне. Приятно четене!</p>
+
 <a id="header-download" href="{{ site.url }}/assets/stihotvorenia.epub" class="js-version btn btn-primary md-one-third">Изтегли EPUB</a>
 
 <a id="header-download" href="{{ site.url }}/assets/stihotvorenia.mobi" class="js-version btn btn-primary md-one-third">Изтегли MOBI</a>
