@@ -3,14 +3,15 @@ layout: page
 permalink: /contact/
 title: "Контакт"
 description: "Връзка с автора"
+cover: beni.jpg
 ---
 
-Ако имате въпроси, коментари или просто искате да споделите нещо, ще се радвам да ми пишете. Старая се да отговарям на всички съобщения своевременно. Понякога е възможно малко забавяне, ако съм прекалено ангажирана, но при всички положения ще получите отговор. 
+Ако имате въпроси, коментари или просто искате да споделите нещо, ще се радвам да ми пишете. Обичам да получавам обратна връзка, чета внимателно всички нишани и отговарям, дори това да отнема понякога време. 
 
-Моля, използвайте *кирилица*! Латиница и/или шльокавица не се толерират. Задължителните полета са отбелязани с <sup class="orange">*</sup>.
+Моля, използвайте *кирилица*. Задължителните полета са отбелязани с <sup class="orange">*</sup>. Данните ви ще бъдат използвани само от мен за обратна връзка с вас и по никакъв начин няма да бъдат преотстъпвани на трети страни/лица, дори срещу сапфири или лютеница. 
 
-<form action="//formspree.io/mnmlivn@gmail.com" class="form" method="POST">
-<input type="hidden" name="_subject" value="New submission!" />
+<form action="//formspree.io/benikki.blog@gmail.com" class="form" method="POST">
+<input type="hidden" name="_subject" value="New submission from stihotvorenia" />
 <p class="name"> 
 <input type="text" name="name" id="name" /> 
 <label for="name">Име <sup class="orange">*</sup></label> 

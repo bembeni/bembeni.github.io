@@ -4,7 +4,6 @@ description: "колко текста правят книга, колко апл
 url:         http://book.bembeni.com
 baseurl:     ''
 permalink:   /stihotvorenia/:title/
-relative_permalinks: true
 
 author:      Албена Тодорова
 email:       benikki.blog@gmail.com

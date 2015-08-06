@@ -7,15 +7,15 @@
 - name: Съдържание
   link: /toc/
   class: toc
-  
-- name: Относно
-  link: /about/
-  class: about
 
+- name: Download
+  link: /download/
+  class: download
+  
 - name: Контакт
   link: /contact/
   class: contact
   
-- name: Download
-  link: /download/
-  class: download
+- name: Относно
+  link: /about/
+  class: about
