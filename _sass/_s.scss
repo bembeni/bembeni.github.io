@@ -55,6 +55,8 @@ body {
 	 padding: 0 0 50px;
 	 font-weight: 400;
 	 font-style: normal;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -314,7 +316,7 @@ nav {
 }
 
 nav.blog {
-	 background-color: rgba(68, 68, 68, 1);
+	 background-color: rgba(209, 209, 209, 1);
 	 margin: 0px;
 	 padding: 1em 0px;
 }
@@ -598,7 +600,7 @@ figcaption {
     border: 0 none;
     background-color: #dedede;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .btn:hover {
@@ -606,7 +608,7 @@ figcaption {
 }
 
 .btn.is-active, .btn:active {
-    background-color: #d9d9d9;
+    background-color: #ffffff;
     box-shadow: 0 0 8px rgba(0, 0, 0, .25) inset;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, .25) inset
 }
