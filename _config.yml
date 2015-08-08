@@ -46,4 +46,4 @@ exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE.md", "Gruntfile.js", 
 encoding: "utf-8"
 timezone: Europe/Sofia
 
-ga: UA-000000-0
+ga: UA-58437990-2
