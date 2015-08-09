@@ -14,3 +14,23 @@ if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) 
             }, false);
         }
 }
+
+$(function() {
+
+    /**
+     * Google Analytics event click tracking
+     */
+
+    $("#header-download-epub").on("click", function() {
+        ga("send", "event", "Download actions", "click", "EPUB");
+    });
+
+    $("#header-download-mobi").on("click", function() {
+        ga("send", "event", "Download actions", "click", "MOBI");
+    });
+
+    $("#header-download-pdf").on("click", function() {
+        ga("send", "event", "Download actions", "click", "PDF");
+    });
+
+});
