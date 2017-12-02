@@ -14,7 +14,7 @@ tumblr:      bembeni
 github:      bembeni
 cover:       bembeni.jpg
   
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
